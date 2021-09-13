@@ -8,8 +8,11 @@ namespace Module2HW2
 {
   public static class Config
   {
-    public static int cartSize = 10;
-    public static int catalogueSize = 12;
+    public static readonly int CartSize = 10;
+    public static readonly int CatalogueSize = 12;
+    public static string clientName = "Vasyl";
+    public static string clientEmail = "totallynotacop@gmail.com";
+    public static string clientPhone = "+3809726552655";
 
     public enum Currency
     {

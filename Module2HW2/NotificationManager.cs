@@ -8,7 +8,7 @@ namespace Module2HW2
 {
   public class NotificationManager
   {
-    public static uint CheckoutID;
+    private static uint CheckoutID;
 
     public static void CheckoutPopup(string order, string name, string email, string phoneNumber, uint total)
     {
